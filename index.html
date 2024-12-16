@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Avançado</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .carousel img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .card {
+            border: none;
+        }
+
+        h4, h5 {
+    font-family: 'Overpass', sans-serif;
+}
+
+    </style>
+</head>
+<body>
+    <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner mb-3">
+            <div data-bs-interval="1500" class="carousel-item active">
+                    <img src="_MG_6548.jpg">
+            </div>
+            <div data-bs-interval="1500" class="carousel-item active">
+                    <img src="_MG_6551.jpg">
+            </div>
+            <div data-bs-interval="1500" class="carousel-item active">
+                    <img src="_MG_6548.jpg">
+            </div>
+            <div data-bs-interval="1500" class="carousel-item active">
+                <img src="_MG_6551.jpg">
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+        <div class="container">
+            <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                        <div class="card text-bg-dark">
+                            <img src="thumbnail (1).jpg" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Foto 01</h4>
+                                <h5 class="card-subtitle">Descrição da foto 01</h5> 
+                                <p class="card-text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis.
+                                </p>
+                                <a href="#" class="btn btn-secondary">Botão link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                        <div class="card text-bg-dark">
+                            <img src="thumbnail (2).jpg" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Foto 02</h4>
+                                <h5 class="card-subtitle">Descrição da Foto 02</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis.
+                                </p>
+                                <a href="#" class="btn btn-secondary">Botão link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+                        <div class="card text-bg-dark">
+                            <img src="thumbnail.jpg" />
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Foto 03</h4>
+                                <h5 class="card-subtitle">Descrição da Foto 03</h5>
+                                <p class="card-text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quasi, dicta rerum nostrum, officiis eos veritatis.
+                                </p>
+                                <a href="#" class="btn btn-secondary">Botão link</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html> 
